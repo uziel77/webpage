@@ -7,6 +7,7 @@ body{
 background: white;
 overflow-x: hidden;
 max-width: 100%;
+justify-content: center;
 }
 /* Lineas Oblicuas */
 .linea-abajo{
@@ -175,7 +176,7 @@ color: #00F3BB ;
 }
 /* Episodios */
 .episodios{
-width: 1440px;
+width: 100%;
 height: 797.6px;
 display: flex;
 flex-wrap: wrap;
@@ -193,24 +194,32 @@ background: blue;
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
     }
+    .about-gallery{
+        display: flex;
+        flex-wrap: wrap;
+    width: 100%px;
+    height: 550px;
+    justify-content: space-evenly;
+  
     iframe{
-    width: 584px;
-    height: 232px;
-    margin: 20px;
+        width: 40%;
+        height: 250px;
+        margin: 30px;
+    }
     }
 }
 /* Phone */
 .phone{
-margin: 100px;
+margin: 70px ;
 display: flex;
 width: 100%;
-height: 400px;
+height: 780px;
     img{
     width: 457px;
-    height: 685px;
+    height: 100%;
     object-fit: cover;  
     position: relative;
-    bottom: 170px;
+    bottom: 100px;
     }
     .text{
     display: flex;
@@ -449,14 +458,21 @@ flex-wrap: wrap;
     }
     .episodios{
         width: 100%;
-        height: 1211px;
+        height: 688px;
+        display: flex;
+       
         h2{
         font-size: 36px;
         margin: 10px;
         }
+        .about-gallery{
+        
+         justify-content: space-between;
+        height: 500px;
+        }
         iframe{
-        width: 298px;
-        margin: 10px;
+            width: 200px;
+            height: 20px;
         }
     }
     .phone{
