@@ -67,7 +67,7 @@ margin: 0;
     width: 60px;
     padding: 10px;
     color: black;
-    margin-left: 300px;
+    margin-left: 150px;
     }
     label:hover{
     background-color: rgba(0,0,0,0.3);
@@ -428,7 +428,7 @@ flex-wrap: wrap;
     margin-top: 25px;
     }
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:600px){
     body{
     max-width: 100%;
     }
