@@ -43,8 +43,9 @@ margin: 0;
     .lbl-menu{
         width: 50px;
         height: 50px;
-        position: relative;
+        position: fixed;
         right: 30px;
+        top: 10px;
         cursor: pointer;
         #spn1,#spn2,#spn3{
             position: absolute;
@@ -68,6 +69,7 @@ margin: 0;
     padding: 10px;
     color: black;
     margin-left: 73px;
+    
     }
     label:hover{
     background-color: rgba(0,0,0,0.3);
@@ -75,6 +77,7 @@ margin: 0;
     }
     nav{
         max-width: 100%;
+        margin-top: 30px;
     ul{
     max-width: 100%;
     list-style: none;
@@ -441,7 +444,7 @@ flex-wrap: wrap;
         position: absolute;
         background: blue;
         width: 100%;
-        margin-left: -165%;
+        margin-left: -200%;
         transition: all 500ms ease;
         ul{
         display: block;   
@@ -453,7 +456,7 @@ flex-wrap: wrap;
     cursor: pointer;
     }
     #btn-menu:checked ~ .bar{
-    margin: 0 0 0 -198px;
+    margin: 30px 0 0 -395px;
     }
     #btn-menu:checked ~ .lbl-menu #spn1{
     transform: rotate(140deg);
