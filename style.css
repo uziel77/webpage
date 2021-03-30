@@ -653,6 +653,7 @@ footer {
     width: 90%;
   }
   .text-header #conoce {
+    margin-left: -18px;
     width: 300px;
     height: 48px;
   }
@@ -789,6 +790,10 @@ footer {
     font-size: 36px;
     margin-bottom: 30px;
     text-align: center;
+    margin-left: -10px;
+  }
+  .novedades a {
+    margin-left: -20px;
   }
   .contactos h3 {
     width: 300px;
