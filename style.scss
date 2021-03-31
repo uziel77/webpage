@@ -32,7 +32,7 @@ width: 100%;
 }
 .menu2{
 display: none;
-max-width: 100%;
+max-width: 80%;
 background-color: white;
 z-index: 10;
 margin: 0;
@@ -44,7 +44,7 @@ margin: 0;
         width: 50px;
         height: 50px;
         position: relative;
-        right: 80px;
+        right: 680px;
         cursor: pointer;
         #spn1,#spn2,#spn3{
             position: absolute;
@@ -67,14 +67,14 @@ margin: 0;
     width: 60px;
     padding: 10px;
     color: black;
-    margin-left: 300px;
+    margin-left: 80px;
     }
     label:hover{
     background-color: rgba(0,0,0,0.3);
     cursor: pointer;
     }
     nav{
-        max-width: 100%;
+        max-width: 50%;
     ul{
     max-width: 100%;
     list-style: none;
@@ -441,7 +441,7 @@ flex-wrap: wrap;
         position: absolute;
         background: blue;
         width: 100%;
-        margin-left: -140%;
+        margin-left: -970px;
         transition: all 500ms ease;
         ul{
         display: block;   

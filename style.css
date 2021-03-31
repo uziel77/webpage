@@ -40,7 +40,7 @@ body {
 
 .menu2 {
   display: none;
-  max-width: 100%;
+  max-width: 80%;
   background-color: white;
   z-index: 10;
   margin: 0;
@@ -54,7 +54,7 @@ body {
   width: 50px;
   height: 50px;
   position: relative;
-  right: 80px;
+  right: 680px;
   cursor: pointer;
 }
 
@@ -82,7 +82,7 @@ body {
   width: 60px;
   padding: 10px;
   color: black;
-  margin-left: 300px;
+  margin-left: 80px;
 }
 
 .menu2 label:hover {
@@ -91,7 +91,7 @@ body {
 }
 
 .menu2 nav {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .menu2 nav ul {
@@ -594,7 +594,7 @@ footer {
     position: absolute;
     background: blue;
     width: 100%;
-    margin-left: -140%;
+    margin-left: -970px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
   }
