@@ -90,6 +90,10 @@ body {
   cursor: pointer;
 }
 
+.menu2 .bar {
+  width: 30%;
+}
+
 .menu2 ul {
   list-style: none;
   padding: 0;
@@ -588,7 +592,7 @@ footer {
   .menu2 .bar {
     position: absolute;
     background: blue;
-    width: 30%;
+    max-width: 100%;
     margin-left: -100%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
