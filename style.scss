@@ -32,19 +32,21 @@ width: 100%;
 }
 .menu2{
 display: none;
-max-width: 80%;
+width: 100%;
 background-color: white;
 z-index: 10;
 margin: 0;
     #btn-menu{
     display: none;
    
+   
 }
     .lbl-menu{
         width: 50px;
         height: 50px;
-        position: relative;
-        right: 680px;
+        position: absolute;
+        left: 250px;
+        top: 10px;
         cursor: pointer;
         #spn1,#spn2,#spn3{
             position: absolute;
@@ -65,24 +67,21 @@ margin: 0;
     label{
     display: none;
     width: 60px;
+    
     padding: 10px;
     color: black;
-    margin-left: 80px;
+   
     }
     label:hover{
     background-color: rgba(0,0,0,0.3);
     cursor: pointer;
     }
-    nav{
-        max-width: 50%;
     ul{
-    max-width: 100%;
     list-style: none;
     padding: 0;
     display: flex;
     li{
     border: 2px solid black;
-    max-width: 100%;
     text-align: center;
     }    
     a{
@@ -95,7 +94,7 @@ margin: 0;
     transition: all 500ms ease;
     }
 }
-}
+
     li:hover{
     background-color: rgba(255,255,255,0.3) ;
     }
@@ -434,14 +433,15 @@ flex-wrap: wrap;
     }
     .menu2{
     display: block;
+    width: 100%;
         label{
         display: block;
         }
         .bar{
         position: absolute;
         background: blue;
-        width: 100%;
-        margin-left: -970px;
+        width: 30%;
+        margin-left: -100%;
         transition: all 500ms ease;
         ul{
         display: block;   
@@ -453,7 +453,7 @@ flex-wrap: wrap;
     cursor: pointer;
     }
     #btn-menu:checked ~ .bar{
-    margin: 0 0 0 -50px;
+    margin: 30px 0 0 -40px;
     }
     #btn-menu:checked ~ .lbl-menu #spn1{
     transform: rotate(140deg);
